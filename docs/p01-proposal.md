@@ -1,32 +1,49 @@
-# Title of your Project: Project Proposal 
+# Project Proposal :tiger:
+### Introduction
+The field of our group project is about carbon footprint. :factory:
+> _The definition of carbon foot print is that the amount of carbon dioxide and other carbon compounds emitted due to the consumption of fossil fuels by a particular person, group, etc._
 
-**TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
+### Why the group is interested in this area
+We interested in this topic is because we want to address the impact of carbon emission on our Earth. In addition, United Nations announced a carbon neutral plan, wich means the emission will be net-zero for some of the country. This attracted our attention on the field of carbon emission. Carbon is a greenhouse gas and the emission contributes to a worldwide concern - global warming. Hence, the footprint is related to human value.
 
-## Developer Notes
+### Relevant data
+There are data that can drive our project. For instance, **Statista** provides the annual CO2 emissions report worldwide from 1940 to 2020.
 
-* **Where is the project brief?**  [`../instructions/project-design-brief.pdf`](../instructions/project-design-brief.pdf).
-* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed! 
-* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief. 
-* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors. 
-* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation. 
-* **Finishing up.** When you are finished writing and formatting your proposal, save these developer notes(they might useful in the future). Then, delete them.
-* **Questions?** If you have questions, please ask your TA or post on Teams.
+**Statista** also provides the carbon footprint of each firms. All those datasets will be available in the "d a t a" file.
 
-|Element | Brief Description|
-|---------------| --------------
-|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc. | 
-|Project title| Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.) |
-|Authors | Names of your team members and contact information (email addresses). |
-|Affiliation |  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington |
-|Date | Winter 2022|
-|Abstract | No more than three sentences that summarize your project. Focus on the very most important aspects. For example: **(1)** "Our main question is .... This question is important because .... To address the question, we will ...." **(2)** "We are concerned with ..., becuase .... To address this concern, we plan to ...." **(3)** "Consider that ....  This is important because .... Accordingly, we plan to ...."   |
-|Keywords | 3-5 keywords that summarize your project.  (e.g., "Keywords: human physiology; bicycle exercise; elderly; power and heart rate times-series data") |
-|1.0 Introduction | Briefly introduce your project. (about 150 words) |
-|2.0 Design Situation | Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. **Note**: You *must* include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure.  (about 400 words) |
-|3.0 Research questions | 3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4. (about 150 words) |
-|4.0 The Dataset | See Design Brief, setions B.5 (_Size and complexity_) and B.6 (_Data provenance_). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words) |
-|5.0 Expected Implications | Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words) |
-|6.0 Limitations | What limitations might you need to address? Briefly discuss. (about 150 words) |
-|Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
-|References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
-|Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
+### Questions
+- What is the trend of CO2 emission from X date to X date?
+- Are there any relationships between CO2 emission and economical activity?
+- Which sector contributes the most carbon footprint?
+- How can each individual firms contributes to the carbon footprint?
+- How are each firms able to manage the release of carbon dioxide?
+
+### How the question can be answered using data
+For the trend of the carbon dioxide emission, we can simply conclude the datasets records from 1940 to 2020 and make a visualization. GDP shows the economy, then, we can compare the GDP datasets and the carbon emission datasets. For the third question, we have to find the CO2 emission in different sectors and find out the proportion of each sectors' emission in the total worldwide emission.
+
+We can find the data of CO2 release for each firm we want to explore about. We can make a data visualization on the trend of release of CO2 for each firms.
+
+### Data
+- [Annual CO2 emissions worldwide from 1940 to 2021](https://www.statista.com/statistics/276629/global-co2-emissions/)
+
+The statistics, surveys, and forecasts are based on the primary data gathered by "Statista" research teams and on secondary data from "Statista" partners. The data is a survey by Global Carbon Project; Expert(s) (Friedlingstein et al.). The dataset has 82 observations and 2 features.
+
+The CO2 emissions worldwide from 1940 to 2021 describes the total amount of carbon dioxide emitted every year. Therefore, we can obtain the total CO2 emission from 1940 until 2020. This answered our first question.
+
+- [Carbon footprint of Amazon from 2018 to 2020](https://www.statista.com/statistics/1235480/amazon-corporate-carbon-footprint-by-type/)
+
+The source of the data is from Amazon and the data are surveys by Amazon. The data has 5 observations and 3 features.
+
+This data answered 'how each individual firm(s) contributes to the carbon footprint', and 'how each firms are managing the release of carbon dioxide.' We compare this data with the annual CO2 emissions worldwide from 1940 to 2021.
+
+- [Carbon Dioxide Emissions](https://hub.arcgis.com/maps/esri::carbon-dioxide-emissions/explore?location=-4.951548%2C114.823930%2C1.00)
+
+This data show the CO2 emission in every country from 1961-2007. It is a survey by Esri Atlas and was generated by ArcGIS Hub.
+
+It answered 'What is the trend of CO2 emission from X date to X date.' We can use R studio to create a visualization to show the trend. It also answered 'Are there any relationship between CO2 emission and economical activity.' We can use this data to match the GDP data to explore the relationship.
+
+- [Worldwide GDP](https://www.statista.com/statistics/268750/global-gross-domestic-product-gdp/)
+
+The statistic shows global gross domestic product (GDP) from 1985 to 2020, with projections up until 2026. In 2020, global GDP amounted to about 84.97 trillion U.S. dollars, almost three trillion lower than in 2019. It is sourced by IMF and generated by "Statista". It has 41 observations and 2 features.
+
+It could answer "Are there any relationship between CO2 emission and economical activity?" We could explore the match between GDP trend and CO2 emission trend.

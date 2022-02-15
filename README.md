@@ -1,22 +1,49 @@
-# Final Project Repository
-**INFO-201: _Foundational Skills For Data Science_ (Winter 2022)**
+# Project Proposal :tiger:
+### Introduction
+The field of our group project is about carbon footprint. :factory:
+> _The definition of carbon foot print is that the amount of carbon dioxide and other carbon compounds emitted due to the consumption of fossil fuels by a particular person, group, etc._
 
-*P01: Project Proposal*: [Project Proposal Title - Edit Me!](./docs/p01-proposal.md) 
+### Why the group is interested in this area
+We interested in this topic is because we want to address the impact of carbon emission on our Earth. In addition, United Nations announced a carbon neutral plan, wich means the emission will be net-zero for some of the country. This attracted our attention on the field of carbon emission. Carbon is a greenhouse gas and the emission contributes to a worldwide concern - global warming. Hence, the footprint is related to human value.
 
+### Relevant data
+There are data that can drive our project. For instance, **Statista** provides the annual CO2 emissions report worldwide from 1940 to 2020.
 
-|Project Directories | Brief Description|
-|---------------| -----------------|
-|[`/data`](./data) | All project datasets should be stored and documented here. For example, if you work with Common Separated Value (.cvs) datasets, they would stored here and documented in this directory's README.md file. Similarly, if you get data from web APIs, you would document the APIs in the directory's `README.md`.
-|[`/docs`](./docs) | All project reports and web documents will be published from this directory. This includes Markdown files (.md), R Markdown files (.Rmd),   HTML files (.html), and so on. The `./docs` directory is the root directory of the website for your project. It will also be used to store all of your design work and project documentation.|
-|[`/instructions`](./instructions)| This directory contains the project design brief.  |
-|[`/source`](./source) | All for your R source code will be located in this directory. To organize your code, you might also decide to create sub-directories.
-| .gitignore | This  file is important. It tells git to ignore all files that are listed therein. Ignoring "non-useful" files will make it *much* easier to work togther in your team. See Freeman and Ross (2019, section 3.6) for details.  |
-| LICENSE | This is a straigtforward software license that basically says "You own the copyright of your code.  Others can use your code, so long as they cite that they are doing so." You should put your names into the LICENSE file. If you would like to use a different license, that would be fine! |
+**Statista** also provides the carbon footprint of each firms. All those datasets will be available in the "d a t a" file.
 
-### Developer notes: 
-* You will use this repository for developing your Final Project. At first, some parts of this 
-initial project set-up will likely be confusing. Please don't worry. During weeks 5-8, you will 
-learning everything you need to know during lectures and labs. 
-* You will add to this basic directory structure over the course of your project.  
-* Your first project deliverable, **P01: Project Proposal**, should be written in Markdown and stored in the file: `./docs/p01-proposal.md`
-* If you need to, you may add additional directories, README.md files, and other files.
+### Questions
+- What is the trend of CO2 emission from X date to X date?
+- Are there any relationships between CO2 emission and economical activity?
+- Which sector contributes the most carbon footprint?
+- How can each individual firms contributes to the carbon footprint?
+- How are each firms able to manage the release of carbon dioxide?
+
+### How the question can be answered using data
+For the trend of the carbon dioxide emission, we can simply conclude the datasets records from 1940 to 2020 and make a visualization. GDP shows the economy, then, we can compare the GDP datasets and the carbon emission datasets. For the third question, we have to find the CO2 emission in different sectors and find out the proportion of each sectors' emission in the total worldwide emission.
+
+We can find the data of CO2 release for each firm we want to explore about. We can make a data visualization on the trend of release of CO2 for each firms.
+
+### Data
+- [Annual CO2 emissions worldwide from 1940 to 2021](https://www.statista.com/statistics/276629/global-co2-emissions/)
+
+The statistics, surveys, and forecasts are based on the primary data gathered by "Statista" research teams and on secondary data from "Statista" partners. The data is a survey by Global Carbon Project; Expert(s) (Friedlingstein et al.). The dataset has 82 observations and 2 features.
+
+The CO2 emissions worldwide from 1940 to 2021 describes the total amount of carbon dioxide emitted every year. Therefore, we can obtain the total CO2 emission from 1940 until 2020. This answered our first question.
+
+- [Carbon footprint of Amazon from 2018 to 2020](https://www.statista.com/statistics/1235480/amazon-corporate-carbon-footprint-by-type/)
+
+The source of the data is from Amazon and the data are surveys by Amazon. The data has 5 observations and 3 features.
+
+This data answered 'how each individual firm(s) contributes to the carbon footprint', and 'how each firms are managing the release of carbon dioxide.' We compare this data with the annual CO2 emissions worldwide from 1940 to 2021.
+
+- [Carbon Dioxide Emissions](https://hub.arcgis.com/maps/esri::carbon-dioxide-emissions/explore?location=-4.951548%2C114.823930%2C1.00)
+
+This data show the CO2 emission in every country from 1961-2007. It is a survey by Esri Atlas and was generated by ArcGIS Hub.
+
+It answered 'What is the trend of CO2 emission from X date to X date.' We can use R studio to create a visualization to show the trend. It also answered 'Are there any relationship between CO2 emission and economical activity.' We can use this data to match the GDP data to explore the relationship.
+
+- [Worldwide GDP](https://www.statista.com/statistics/268750/global-gross-domestic-product-gdp/)
+
+The statistic shows global gross domestic product (GDP) from 1985 to 2020, with projections up until 2026. In 2020, global GDP amounted to about 84.97 trillion U.S. dollars, almost three trillion lower than in 2019. It is sourced by IMF and generated by "Statista". It has 41 observations and 2 features.
+
+It could answer "Are there any relationship between CO2 emission and economical activity?" We could explore the match between GDP trend and CO2 emission trend.

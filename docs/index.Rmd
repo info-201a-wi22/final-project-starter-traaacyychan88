@@ -12,7 +12,7 @@ Our main question is that how the change of carbon emission affect the economy. 
 Key words: Carbon foot print; Economy; GDP
 
 ### Introduction
-
+The purpose of this project is to investigate Carbon Emissions and how the Economy drives it. We want to see the different effects of how carbon emissions can affect our lives especially with global warming since it has become a bigger global concern. We want to explore this topic more indepthly through this project and hope to have a better understanding of how much carbon emissions different companies are emitting. Some of the companies have pledged to be carbon neutral thus, we will see some small and some significant changes in the data over the years. Along with this, different industries/companies emit different amounts of carbon into the atmosphere and we want to be able to make comparisons among the different industries. 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

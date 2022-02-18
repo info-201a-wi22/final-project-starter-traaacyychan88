@@ -1,9 +1,18 @@
 ---
-title: "Your Project Title"
-author: Tracy Chan, Joyce Jiang, Shanglin Jiang and Martin Ma
+title: Relationship Between Carbon Footprint And Human Economy
+author: Tracy Chan(tchan778@uw.edu), Joyce Jiang(zjiang5@uw.edu), Shanglin Jiang(sjiang5@uw.edu) and Martin Ma(chengm26@uw.edu)
 date: "2/17/2022"
 output: html_document
 ---
+INFO-201 Technical Foundation of Infomatics - The Information School - University of Washington
+
+### Abstract
+Our main question is that how the change of carbon emission affect the economy. The question is significant because carbon emission is a serious concern around the world. To address the question will will collect the data of carbon emission and GDP growth and analyze them. In addition, we are using data visualization to present situation. 
+
+Key words: Carbon foot print; Economy; GDP
+
+### Introduction
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

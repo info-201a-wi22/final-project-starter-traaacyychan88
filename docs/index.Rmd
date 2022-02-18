@@ -12,18 +12,32 @@ Our main question is that how the change of carbon emission affect the economy. 
 Key words: Carbon foot print; Economy; GDP
 
 ### Introduction
-<<<<<<< HEAD
 The purpose of this project is to investigate Carbon Emissions and how the Economy drives it. We want to see the different effects of how carbon emissions can affect our lives especially with global warming since it has become a bigger global concern. We want to explore this topic more indepthly through this project and hope to have a better understanding of how much carbon emissions different companies are emitting. Some of the companies have pledged to be carbon neutral thus, we will see some small and some significant changes in the data over the years. Along with this, different industries/companies emit different amounts of carbon into the atmosphere and we want to be able to make comparisons among the different industries. 
-=======
 
 ### Design Situation
-The topic for our project is how the change of carbon emission affect the economy. And what we did for our project is we collected the data of carbon emission and GDP growth to compare in order to analyze our main topic, for example, we will compare the carbon emission and GDP growth of same years to see if there are any connections. The direct stakeholders are the owner of some companies and governments, they will get some profits as they establish some policy to reduce the carbon emission and as the carbon emission goes down, and the indirect stakeholders are everyone that live in this world, because the environment get worse because of the carbon emission. Carbon emission is a serious problem right now, and it has always been a concern of the government and companies, because the problems caused by excessive carbon emission to atmosphere are vast and widespread. Moreover, large amount of carbon emission caused about 4.2 million premature deaths (according to World Health Organisation), ocean temperature to rise, food insecurity, and so on. The problems of carbon emission affect our lives a lot. However, one of the benefits of carbon emission decreasing is the GDP grows, the countries have carbon taxes, "carbon taxes are seen as a way to reduce emissions, while making the economy more efficient." Also, when the carbon emission decreased, the climate change would be greatly improved and can save large amount of money on global trade, because transport and distribution chains might become more vulnerable to disruptions due to climate change, which may cause a lot. Decreasing the carbon emission can brought profits to governments and companies, it can also give us a better environment to live. Also, there are some new techniques and invents to help reduce the carbon emission, which also save the costs of companies and some organizations, and brought more money to them, "According to the National Statistics, as a result of not only climate regulation and economic structural change, but also technological advancements that took place in the UK, the region was able to achieve decoupling between 1985 and 2016 with GDP per head rising by 70.7% while emissions dropped by 34%."
-https://earth.org/carbon-emissions-economy/
->>>>>>> 9a10b03eb3cf5dc9f566236b2ccaa8641fbc9c84
+The topic for our project is how the change of carbon emission affect the economy. And what we did for our project is that we collected the data of carbon emission and GDP growth to compare. This in order us to analyze our main topic, for example, we will compare the carbon emission and GDP growth of same years to see if there are any connections. 
 
-https://www.greenmatters.com/p/how-do-carbon-emissions-affect-environment
+The direct stakeholders are the owner of some companies and governments, they will get some profits as they establish some policy to reduce the carbon emission and as the carbon emission goes down. In addition, the indirect stakeholders are everyone that live in this world, because the environment get worse due to the carbon emission. 
 
-https://www.fao.org/3/bu414e/bu414e.pdf
+Carbon emission is a serious problem right now, and it has always been a concern of the government and companies, because the problems caused by excessive carbon emission to atmosphere are vast and widespread. Moreover, large amount of carbon emission caused about 4.2 million premature deaths (according to World Health Organisation), ocean temperature to rise, food insecurity, and so on. The problems of carbon emission affect our lives a lot. However, one of the benefits of carbon emission decreasing is the GDP grows, the countries have carbon taxes, "carbon taxes are seen as a way to reduce emissions, while making the economy more efficient." Also, when the carbon emission decreased, the climate change would be greatly improved and can save large amount of money on global trade, because transport and distribution chains might become more vulnerable to disruptions due to climate change, which may cause a lot. Decreasing the carbon emission can brought profits to governments and companies, it can also give us a better environment to live. Also, there are some new techniques and invents to help reduce the carbon emission, which also save the costs of companies and some organizations, and brought more money to them, "According to the National Statistics, as a result of not only climate regulation and economic structural change, but also technological advancements that took place in the UK, the region was able to achieve decoupling between 1985 and 2016 with GDP per head rising by 70.7% while emissions dropped by 34%."
+
+
+**Articles:**
+
+- [Carbon Emission and Economy](https://earth.org/carbon-emissions-economy/)
+
+- [How Do Carbon Emissions Affect the Environment?](https://www.greenmatters.com/p/how-do-carbon-emissions-affect-environment)
+
+- [OECD trade and environment](https://www.fao.org/3/bu414e/bu414e.pdf)
+
+### Reseearch Questions 
+
+### The Dataset
+
+### Expected Implications
+
+### Limitations
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```

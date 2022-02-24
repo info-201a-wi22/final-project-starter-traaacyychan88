@@ -9,14 +9,15 @@ INFO-201 Technical Foundation of Informatics - The Information School - Universi
 ### Abstract
 Our main question is that how the change of carbon emission affect the economy. The question is significant because carbon emission is a serious concern around the world. To address the question will will collect the data of carbon emission and GDP growth and analyze them. In addition, we are using data visualization to present situation. 
 
-Key words: Carbon foot print; Economy; GDP
+### Key words: 
+
+Carbon foot print; Economy; GDP
 
 ### Introduction
 
 The purpose of this project is to investigate Carbon Emissions and how the Economy drives it. We want to see the different effects of how carbon emissions can affect our lives especially with global warming since it has become a bigger global concern. We want to explore this topic more indeptly through this project and hope to have a better understanding of how much carbon emissions different companies are emitting. Some of the companies have pledged to be carbon neutral thus, we will see some small and some significant changes in the data over the years. Along with this, different industries/companies emit different amounts of carbon into the atmosphere and we want to be able to make comparisons among the different industries. 
-=======
 
-<<<<<<< HEAD
+
 ### Design Situation
 The topic for our project is how the change of carbon emission affect the economy. And what we did for our project is we collected the data of carbon emission and GDP growth to compare in order to analyze our main topic, for example, we will compare the carbon emission and GDP growth of same years to see if there are any connections. The direct stakeholders are the owner of some companies and governments, they will get some profits as they establish some policy to reduce the carbon emission and as the carbon emission goes down, and the indirect stakeholders are everyone that live in this world, because the environment get worse because of the carbon emission. Carbon emission is a serious problem right now, and it has always been a concern of the government and companies, because the problems caused by excessive carbon emission to atmosphere are vast and widespread. Moreover, large amount of carbon emission caused about 4.2 million premature deaths (according to World Health Organisation), ocean temperature to rise, food insecurity, and so on. The problems of carbon emission affect our lives a lot. However, one of the benefits of carbon emission decreasing is the GDP grows, the countries have carbon taxes, "carbon taxes are seen as a way to reduce emissions, while making the economy more efficient." Also, when the carbon emission decreased, the climate change would be greatly improved and can save large amount of money on global trade, because transport and distribution chains might become more vulnerable to disruptions due to climate change, which may cause a lot. Decreasing the carbon emission can brought profits to governments and companies, it can also give us a better environment to live. Also, there are some new techniques and invents to help reduce the carbon emission, which also save the costs of companies and some organizations, and brought more money to them, "According to the National Statistics, as a result of not only climate regulation and economic structural change, but also technological advancements that took place in the UK, the region was able to achieve decoupling between 1985 and 2016 with GDP per head rising by 70.7% while emissions dropped by 34%."
 https://earth.org/carbon-emissions-economy/
@@ -28,7 +29,21 @@ https://earth.org/carbon-emissions-economy/
 
 - [OECD trade and environment](https://www.fao.org/3/bu414e/bu414e.pdf)
 
-### Reseearch Questions 
+### Research Questions 
+The questions are important in our project since we are trying to convey the importance of carbon emission in the air and the different amount of carbon emissions that everyone emits. 
+The questions that we are going to address are listed here :
+
+  What is the trend of CO2 emission from X date to X date?
+  
+  Are there any relationships between CO2 emission and economic activity?
+  
+  Which sector contributes the most carbon footprint?
+  
+  How can each individual firm contribute to the carbon footprint?
+  
+  How are each firm able to manage the release of carbon dioxide?
+  
+These questions are important because it helps us break down the data and have a better understanding of what factors contribute to the most carbon emissions in our atmosphere. For example we can look at how exactly the GDP drives CO2 emissions in different places. 
 
 ### The Dataset
 Our topic is Relationship Between Carbon Footprint And Human Economy. The first dataset is about annual CO2 emissions worldwide from 1940 to 2020. The observations are different years, and the variable is emission in billion metric tons. These data are Published by Ian Tiseo, Nov 22, 2021, on Statista. These data can reflect how emissions change historically. Overall it increases year by year, and also there is also some event lead reduction in CO2 emission. The data will benefit the people who are environmentalists and organizations like WWF. The second data is Amazon’s corporate carbon footprint from 2018 to 2020. The observations are Emissions caused by different reasons. The variables are the year from 2018 to 2020. These data are published by Daniela Coppola, on Aug 3, 2021, on Statista. These data can show Amazon’s recent carbon footprint. How does the carbon emission of one of the biggest internet companies in the world? It can help our group know the tendency of a current big company. Our third data is Global gross domestic product (GDP) at current prices from 1985 to 2026. The observations are years, variables are dollars in billion. The data are Published by Aaron O'Neill,  Jan 4, 2022. These data can represent how does the GDP has changed from 1985 to now. We can relate this data with Carbon emission to see how does Carbon emission influences the GDP in the world. So that we can give suggestions about what should people do in the future, and what can make human lives better. These data are beneficial to people who focus on human development or economists because GDP can reflect how developed the world is. All these three datasets are from Statista, this is an authority website on data, so it is reliable.
@@ -42,16 +57,7 @@ https://www.fao.org/3/bu414e/bu414e.pdf
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## Research Questions 
-The questions are important in our project since we are trying to convey the importance of carbon emission in the air and the different amount of carbon emissions that everyone emits. 
-The questions that we are going to address are listed here :
-  What is the trend of CO2 emission from X date to X date?
-  Are there any relationships between CO2 emission and economic activity?
-  Which sector contributes the most carbon footprint?
-  How can each individual firm contribute to the carbon footprint?
-  How are each firm able to manage the release of carbon dioxide?
-These questions are important because it helps us break down the data and have a better understanding of what factors contribute to the most carbon emissions in our atmosphere. For example we can look at how exactly the GDP drives CO2 emissions in different places. 
-  
+
 
 ## What is this file for?
 
